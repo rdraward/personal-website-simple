@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color:black;
+}
+
+.flex-container {
+	height: 100%;
+}
+
+.navbar {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-padding-top {
+	padding-top: 8px;
+}
+
+.page {
+	height: 100%;
+
+	background: url(../images/dino_dark.jpg)  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav>li>a:focus {
+	background: #B84D4D !important;
+}
+
+.page_heading{
+	position: absolute;
+	top: 75%;
+	left: 15%;
+	font-size: 36px;
+}
+
+.button_outline {
+	background: transparent;
+	border-color: white;
+	border-style: solid;
+	font-size: 26px;
+	width: 36%;
+	margin-left: 5%;
+}
+
+.button_outline:hover{
+	background-color: #B84D4D !important;
+	transition: 0.7s all linear;
+}
+
+.info_text {
+	color: white !important;
+}
+
+.text-24 {
+	font-size: 24px;
+}

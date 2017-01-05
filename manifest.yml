@@ -1,0 +1,6 @@
+name: the-riley-draward-experience
+memory: 512M
+instances: 1
+host: the-riley-draward-experience
+path: webpage
+buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack   
