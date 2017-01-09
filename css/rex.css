@@ -37,11 +37,13 @@ body {
 	background-size: cover;
 }
 
-.roboto{
+.roboto {
 	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: 1px 1px 4px #000000;
+	color: white !important;
 }
 
-.page_heading{
+.page_heading {
 	position: absolute;
 	bottom: 12%;
 	left: 15%;
@@ -49,7 +51,6 @@ body {
 
 .name {
 	font-size: 24px;
-	color: white !important;
 	cursor: default;
 }
 
@@ -60,7 +61,6 @@ body {
 
   border: 2px solid white;
 	background: transparent;
-	color: white;
 	min-width: 40%;
 
 	font-size: 24px;
@@ -84,7 +84,6 @@ body {
 }
 
 .title {
-	color: white;
 	font-size: 36px;
 }
 
